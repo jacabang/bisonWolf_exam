@@ -14,3 +14,4 @@ use Illuminate\Http\Request;
 */
 
 Route::post('/append', 'ApiController@append');
+Route::post('/fetchFlight', 'ApiController@fetchFlight');

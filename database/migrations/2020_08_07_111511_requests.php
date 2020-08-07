@@ -20,7 +20,7 @@ class Requests extends Migration
             $table->string('aircraft');
             $table->string('passenger_count');
             $table->date('flight_date');
-            $table->time('flight_time');
+            $table->time('flight_time')->nullable();
             $table->tinyInteger('has_accommodations');
             $table->tinyInteger('has_exclusions_of_time');
             $table->tinyInteger('has_special_requests');
